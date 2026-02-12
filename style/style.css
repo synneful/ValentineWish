@@ -5,8 +5,13 @@ html {
 body {
   margin: 0;
   font-family: "Work Sans", sans-serif;
+  background-color: #cc93e6;
 }
 
+h1 {
+  color: #100515;
+
+}
 .container {
   height: 100vh;
   width: 100vh;
@@ -60,7 +65,7 @@ body {
 .four .text-box {
   width: 600px;
   margin: 0 auto;
-  border: 3px solid #aaa;
+  border: 3px solid #000;
   border-radius: 5px;
   padding: 10px;
   position: relative;
@@ -80,7 +85,7 @@ body {
   right: 5px;
   bottom: 5px;
   color: #fff;
-  background-color: rgb(21, 161, 237);
+  background-color: #e81736;
   padding: 5px 8px;
   border-radius: 3px;
 }
@@ -105,7 +110,7 @@ body {
 .idea-5 span,
 .idea-6 span,
 .wish-hbd span {
-  display: inline-block;
+  display: inline;
 }
 
 .idea-6 span {
@@ -212,8 +217,9 @@ body {
 }
 
 .wish-hbd {
-  font-size: 3em;
+  font-size: 2em;
   margin: 0;
+  text-shadow: 2px 2px 2px #000;
   /* text-transform: uppercase; */
 }
 
@@ -286,7 +292,7 @@ body {
   }
 
   .wish-hbd {
-    font-size: 2.3em;
+    font-size: 1em;
   }
 
   .wish h5 {
